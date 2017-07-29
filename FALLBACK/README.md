@@ -23,6 +23,14 @@ Config:<br>
   nach wieviel msec so nach dem STA gesehen werden.<br>
   Achtung AP wird aus gemacht!<br>
   fallback.AP_verrbingung_max_zeit = 60000; //standart 60sec im AP modus<br>
+  <br>
+  im loop:<br>
+  void loop() {<br>
+    fallback.wifi_status();<br>
+    ...<br>
+    ....<br>
+    .....<br>
+  }<br>
   
 TODO:
   - Rückgabewert für fehlerhaft config
